@@ -1,0 +1,13 @@
+"""practice with functions"""
+
+from random import randint
+
+print(randint(1, 10))
+
+- how to define a function, line 8 is the signature 
+def sum(num1: int, num2: int) -> int:
+    """how to return the sum of two numbers, num1 and num2"""
+    return num1 + num2
+# call the function 
+print(sum(num1=1, num2=10)) #arguments are 1 and 10
+

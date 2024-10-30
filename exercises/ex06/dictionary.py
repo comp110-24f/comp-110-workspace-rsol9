@@ -44,6 +44,9 @@ def favorite_color(colors: dict[str, str]) -> str:
     return most_popular
 
 
+# commnte
+
+
 def count(items: list[str]) -> dict[str, int]:
     """counts how many times sum appears in the dict"""
     frequency: dict[str, int] = {}
